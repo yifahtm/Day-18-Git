@@ -18,3 +18,16 @@ h1 {
     background-color: #fbfbac;
     margin: auto
 }
+
+.ball2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100px;
+    max-width: 400px;
+    height: 100px;
+    max-width: 400px;
+    border-radius: 50%;
+    background-color: hsl(30, 97%, 50%);
+    margin: auto
+}
