@@ -1,9 +1,9 @@
 var gBallSize = 100
-
+var gBallSizeStep = 50
 function onBallClick() {
     var elBall = document.querySelector('.ball')
-    var newSize = 100 + 50
-    elBall.style.width = newSize + 'px'
-    elBall.style.height = newSize + 'px'
-    elBall.innerText = newSize
+    gBallSize += 50
+    elBall.style.width = gBallSize + 'px'
+    elBall.style.height = gBallSize + 'px'
+    elBall.innerText = gBallSize
 }
