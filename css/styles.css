@@ -11,7 +11,9 @@ h1 {
     font-size: 22px;
     font-weight: bold;
     width: 100px;
+    max-width: 400px;
     height: 100px;
+    max-width: 400px;
     border-radius: 50%;
     background-color: #fbfbac;
     margin: auto
