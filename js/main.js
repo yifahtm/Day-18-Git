@@ -3,6 +3,7 @@ var gBallSizeStep = 50
 
 function onBallClick(maxDiameter) {
     var elBall = document.querySelector('.ball')
+    var elBall = document.querySelector('.ball2')
     gBallSize += 50
     if (gBallSize > maxDiameter) {
         gBallSize = 100
