@@ -39,4 +39,13 @@ function onBall3Click() {
     elBall2.style.backgroundColor = tempColor
 }
 
-
+function onBall4Click(minDiameter) {
+    var elBall1 = document.querySelector('.ball')
+    var elBall2 = document.querySelector('.ball2')
+    onBallClick(400, '-')
+    onBall2Click(400, '-')
+    if (gBall2Size < minDiameter || gBall1Size < minDiameter) {
+        gBall2Size = minDiameter
+        gBall1Size = minDiameter
+    }
+}
