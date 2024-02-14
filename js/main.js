@@ -1,7 +1,5 @@
-var gBall1Size = 100
-var gBall2Size = 100
-var gBall1SizeStep
-var gBall2SizeStep
+var gBallSize = 100
+var gBallSizeStep
 
 function onBallClick(maxDiameter) {
     var elBall1 = document.querySelector('.ball')
@@ -24,18 +22,9 @@ function onBall2Click(maxDiameter) {
         gBall2Size = 100
         elBall2.style.transition = 'width 1s, height 1s'
     }
-    gBall2Size += gBall2SizeStep
-    elBall2.style.width = gBall2Size + 'px'
-    elBall2.style.height = gBall2Size + 'px'
-    elBall2.innerText = gBall2Size
+    gBallSize += gBallSizeStep
+    elBall2.style.width = gBallSize + 'px'
+    elBall2.style.height = gBallSize + 'px'
+    elBall2.innerText = gBallSize
     elBall2.style.backgroundColor = getRandomColor()
-}
-
-function onBall3Click() {
-    var elBall1 = document.querySelector('.ball')
-    var elBall2 = document.querySelector('.ball2')
-    var tempColor = elBall1.style.backgroundColor
-    elBall1.style.backgroundColor = elBall2.style.backgroundColor
-    elBall2.style.backgroundColor = tempColor
-}
-
+} 
