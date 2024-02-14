@@ -15,8 +15,11 @@ h1 {
     height: 100px;
     max-width: 400px;
     border-radius: 50%;
-    background-color: #fbfbac;
     margin: 50px auto
+}
+
+.ball1 {
+    background-color: #fbfbac;
 }
 
 .ball2 {
