@@ -13,4 +13,5 @@ function onBallClick(maxDiameter) {
     elBall.style.width = gBallSize + 'px'
     elBall.style.height = gBallSize + 'px'
     elBall.innerText = gBallSize
+    elBall.style.backgroundColor = getRandomColor()
 } 
